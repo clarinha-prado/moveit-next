@@ -1,0 +1,103 @@
+.loginContainer {
+    background: #5965E0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer section {
+    flex: 1 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.25rem;
+    gap: 1.25rem;
+    align-content: center;
+}
+
+.logoLateral {
+    width: 45rem;
+}
+
+.logoContainer {
+    display: block;
+    margin-left: 0;
+}
+
+.loginFieldsContainer {
+    height: 100%;
+
+    padding: 0rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.loginFieldsContainer form input {
+    width: 340px;
+    height: 80px;
+    padding-left: 2rem;
+    font-size: 1.25rem;
+    color: #B2B9FF;
+    border: 0;
+    background-image: linear-gradient(to right, #4953B8 , #5965E0);
+    border-radius: 5px 0px 0px 5px;
+}
+
+.loginFieldsContainer form input:focus {
+    color: var(--white);
+    content: none;
+}
+
+.loginFieldsContainer form input:hover {
+    border: 1px solid #414AA3;
+}
+
+.loginFieldsContainer button {
+    width: 80px;
+    height: 80px;
+    color: var(--white);
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 2.5rem;
+}
+
+.loginFieldsContainer button:enabled {
+    background: #4CD62B;
+}
+
+.loginFieldsContainer button:disabled {
+    background: #4953B8;
+}
+
+.loginFieldsContainer > header {
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 1.5rem;
+}
+
+.logoMoveIt {
+    margin-bottom: 96px;
+    width: 25rem;
+}
+
+.logoGitHub {
+    width: 22rem;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction:row;
+    margin-top: 2.5rem;
+}
+ 

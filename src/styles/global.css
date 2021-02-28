@@ -58,3 +58,15 @@ a {
     flex-direction: column;
 }
 
+::placeholder {
+    color: #B2B9FF;
+    opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #B2B9FF;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #B2B9FF;
+}

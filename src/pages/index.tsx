@@ -1,37 +1,16 @@
-import Head from 'next/head';
+import { LoginForm } from '../components/LoginForm';
 
-import { ChallengeBox } from '../components/ChallengeBox';
-import { CompletedChallenges } from '../components/CompletedChallenges';
-import { Countdown } from '../components/Countdown';
-import { ExperienceBar } from '../components/ExperienceBar';
-import { Profile } from '../components/Profile';
-import { CountdownProvider } from '../contexts/CountdownContext';
-
-import styles from '../styles/pages/Home.module.css';
+import { LoginContext, LoginProvider } from '../contexts/LoginContext';
+import { useContext } from 'react';
 
 export default function Home() {
+
+  const { isLoggedIn } = useContext(LoginContext);
+  console.log("início da home page - recuperado do contexto: " + isLoggedIn);
+
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>
-          Início - move.it
-        </title>
-      </Head>
-
-      <ExperienceBar />
-
-      <CountdownProvider>
-        <section>
-          <div>
-            <Profile />
-            <CompletedChallenges />
-            <Countdown />
-          </div>
-          <div>
-            <ChallengeBox />
-          </div>
-        </section>
-      </CountdownProvider>
-    </div >
-  );
+    <LoginProvider x={isLoggedIn}>
+      <LoginForm />
+    </LoginProvider>
+  )
 }
