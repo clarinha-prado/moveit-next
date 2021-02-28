@@ -1,8 +1,6 @@
 # moveit
 
-<p align="center">
-  <img alt="diagrama de casos de uso" width="500" title="#Casos de Uso" src="./assets/banner.jpg" />
-</p>
+
 Projeto trabalhado no evento Next Level Week #4 da RocketSeat. Ao final do evento foram propostas novas funcionalidades para evolução da aplicação por quem desejasse, como login, ranking e empacotamento em PWA que serão realizados.
 As funcionalidades básicas são:
 <p align="center">
