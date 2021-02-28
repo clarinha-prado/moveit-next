@@ -1,9 +1,9 @@
 # moveit
 
 <p align="center">
-  <img alt="diagrama de casos de uso" width="500" title="#Casos de Uso" src="./assets/banner.jpg" />
+  <img width=100% alt="diagrama de casos de uso" width="500" title="#Casos de Uso" src="./assets/banner.jpg" />
 </p>
-<p aligne="center">
+<p align="center">
   <img src="https://img.shields.io/badge/status-in%20dev-brightgreen">
 </p>
 Projeto trabalhado no evento Next Level Week #4 da RocketSeat. Ao final do evento foram propostas novas funcionalidades para evolução da aplicação por quem desejasse, como login, ranking e empacotamento em PWA que serão realizados.
