@@ -1,5 +1,3 @@
-# moveit
-
 <p align="center">
   <img width=100% alt="diagrama de casos de uso" width="500" title="#Casos de Uso" src="./assets/banner.jpg" />
 </p>
